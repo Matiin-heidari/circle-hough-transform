@@ -34,7 +34,3 @@ requirements.txt
 
 ## Output
 The script processes the image, detects circles, and displays the result.
-
-## License
-This project is open-source.
-```
