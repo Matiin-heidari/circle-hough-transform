@@ -4,11 +4,6 @@ from matplotlib import pyplot as plt
 from imageio.v3 import imread
 
 class imarray(object):
-	#Class to handle Image Objects
-	#Usage:
-	#	img = imarray(path)
-	#		OR
-	#	img = imarray(path,'RGB')
 	def __init__(self,path=None,mode='L'):
 		if path == None:
 			return
